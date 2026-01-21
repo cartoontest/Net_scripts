@@ -1,4 +1,5 @@
 # Net_scripts
+#!/usr/bin/env python3
 pythonR1script1.py
 
 import getpass
