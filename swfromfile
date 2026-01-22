@@ -1,5 +1,6 @@
-  GNU nano 7.2                                         swfromfile.py
+#GNU nano 7.2                                         swfromfile.py
 #!/usr/bin/env python3
+
 import getpass
 import sys
 import telnetlib
@@ -10,6 +11,7 @@ password = getpass.getpass()
 f = open("my")
 
 for line in f:
+    print("configuration of switch:" + line)
     HOST = line.strip()
     tn = telnetlib.Telnet(HOST)
     tn.read_until(b"Username: ")
