@@ -1,4 +1,4 @@
-#GNU nano 7.2                                         swfromfile.py
+#GNU nano 7.2                                         
 #!/usr/bin/env python3
 
 import getpass
